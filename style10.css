@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f5f2;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f5f2;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ff6600;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navbar a.active {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+.navbar .signup-login {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.main-content .text {
+    max-width: 50%;
+}
+.main-content .text h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 72px;
+    margin: 0;
+    line-height: 1;
+}
+.main-content .text h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    color: #ff6600;
+    margin: 10px 0;
+}
+.main-content .text p {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+.main-content .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    padding: 10px 20px;
+    max-width: 500px;
+}
+.main-content .search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    flex: 1;
+}
+.main-content .search-bar .fa-search {
+    color: #ff6600;
+    font-size: 24px;
+}
+.main-content .image {
+    max-width: 50%;
+}
+.main-content .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/* Apply the imported font to the whole body */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fcfbf7;
+}
+
+header {
+    padding: 20px 50px;
+    background-color: rgb(221, 19, 19);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(217, 51, 51, 0.1);
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login-btn {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #fdf5ec;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    color: #333;
+    font-weight: 700; /* Bold */
+    line-height: 0.5;
+}
+
+.hero-text h3 {
+    font-size: 26px;
+    font-weight: 600; /* Semi-bold */
+    color: #ff6a00;
+    margin-top: 10px;
+}
+
+.hero-text h3 span {
+    font-weight: 700; /* Make "Padhai Dekho" bolder */
+}
+
+.hero-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    max-width: 550px;
+}
+
+.search-bar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 50px 0 0 50px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-bar .search-btn {
+    background-color: #ff6a00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+.search-bar .search-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-image img {
+    max-width: 450px;
+    border-radius: 10px;
+}
+

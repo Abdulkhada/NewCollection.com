@@ -1,0 +1,84 @@
+/* General body settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-container {
+    text-align: center;
+}
+
+/* Logo Styling (similar to Google's logo size) */
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4285f4; /* Google blue */
+}
+
+/* Styling the input and button */
+.search-input {
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #4285f4;
+}
+
+/* Styling the submit button */
+.search-button {
+    padding: 14px 32px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #357ae8;
+}
+
+/* Search Results Styling */
+.results-container {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.result-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1a73e8;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+.result-item .url {
+    color: #006621;
+    font-size: 14px;
+}
+
+.result-item p {
+    color: #5f6368;
+    font-size: 14px;
+}

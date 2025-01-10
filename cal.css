@@ -1,0 +1,54 @@
+        input[type="number"] {
+            width: 500px;
+            height: 80px;
+            font-size: 50px;
+            text-align: right;
+            color: white;
+            padding: 0px;
+            border: 0px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Includes padding and border in width/height */
+        }
+
+        /* Optional: Change border color on focus */
+        input[type="number"]:focus {
+            border-color:rgb(210, 71, 7);
+            background-color:rgba(13, 12, 12, 0.61);
+        }
+
+        table {
+            margin: 50px auto;  /* Center the table on the page */
+            border-collapse: collapse;  /* Collapse borders */
+            border: 0px solid #333;  /* Table border */
+        }
+
+        /* Style the table cells (buttons) */
+        td {
+            text-align: right;
+        }
+
+        /* Style each button */
+        input[type="button"] {
+            width: 118px;
+            height: 70px; 
+            font-size: 30px;
+            margin: 2px;
+            border: 0px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            border-radius: 0px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        function appendToNumberInput(value) {
+    // Get the current value of the number input
+    var currentValue = document.getElementById('numberInput').value;
+    
+    // Append the clicked button's value to the current value
+    document.getElementById('numberInput').value = currentValue + value;
+}
+
+// Function to clear the number input field
+function clearNumberInput() {
+    document.getElementById('numberInput').value = '';
+}?>
+    </style>

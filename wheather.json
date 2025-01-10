@@ -1,0 +1,17 @@
+{
+    "coord": { "lon": -0.13, "lat": 51.51 },
+    "weather": [{ "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }],
+    "main": {
+        "temp": 14.7,
+        "pressure": 1013,
+        "humidity": 72,
+        "temp_min": 13.8,
+        "temp_max": 15.1
+    },
+    "wind": { "speed": 3.09, "deg": 240 },
+    "sys": { "type": 1, "id": 1414, "country": "GB", "sunrise": 1607474785, "sunset": 1607520467 },
+    "timezone": 0,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
